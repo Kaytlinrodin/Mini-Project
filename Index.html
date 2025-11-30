@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
    <section>
@@ -16,7 +17,7 @@
         </ul>
     </nav>
     <header>
-        <div>
+        <div class="row">
             <h1>Best place to learn frontend</h1>
             <p>Go from absolute beginner to pro with a simplified approach</p>
             <button>Start Now</button>
@@ -29,9 +30,12 @@
     <main>
         <section id="about">
             <h2>About</h2>
-            <div>
+            <div class="section_description">
+<div class="section_descrption--wrapper">
+    <p class="section_descrption--para">
                 <p>We are here to code and relax.</p>
                 <p>Life is short, have fun and rest.</p>
+                <p class="section_descrption--para"></p>
             </div>
         </section>
         <section id="Contact">
@@ -48,12 +52,13 @@
 
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" required></textarea>
+                <button type="Contact Us">Contact Us</button>
                 </form>
             </section>
     </main>
     
     <footer>
-        <img src="./assets/FES.svg" alt="">
+        <img class="footer_logo" src="./assets/FES.svg" alt="">
         <div>
 
         </div>>
